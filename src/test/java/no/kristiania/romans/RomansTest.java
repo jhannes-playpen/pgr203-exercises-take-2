@@ -7,27 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class RomansTest {
 
     @Test
-    void shouldConvertToI() {
-        assertEquals("I", toRoman(1));
-
-    }
-    @Test
-    void  shouldConvertToII(){
-        assertEquals("II", toRoman(2));
-    }
-    @Test
-    void shouldConvertToIII(){
-        assertEquals("III", toRoman(3));
-    }
-    @Test
     void shouldConvertToIV(){
         assertEquals("IV", toRoman(4));
     }
 
-    @Test
-    void shouldConvertToV() {
-        assertEquals("V", toRoman(5));
-    }
     @Test
     void shouldConvertNumbersOver5() {
         assertEquals("VI", toRoman(6));
